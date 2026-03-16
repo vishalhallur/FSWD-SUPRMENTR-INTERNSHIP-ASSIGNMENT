@@ -1,0 +1,31 @@
+Assignment Name: Internet Explorer
+
+1. Client–Server Architecture
+
+Client–Server architecture is a network model where clients request services and servers provide services.
+
+Client: The user device that sends a request.
+Example: Computer, mobile phone, browser (Chrome, Edge).
+
+Server: A powerful computer that stores websites, data, and applications and sends them to clients when requested.
+
+When a client requests a webpage, the server processes the request and sends the webpage back to the client through the internet.
+
+2. What Happens When You Open a Website
+
+When you open a website (for example www.google.com), the following steps happen:
+
+i. User enters the website URL in the browser.
+
+ii. The browser sends a DNS request to find the IP address of the website.
+
+iii. The DNS server returns the IP address of the web server.
+
+iv. The browser sends an HTTP/HTTPS request to that server.
+
+v. The web server processes the request.
+
+vi. The server sends back the HTML, CSS, and JavaScript files.
+
+vii. The browser renders the webpage and shows it to the user.
+

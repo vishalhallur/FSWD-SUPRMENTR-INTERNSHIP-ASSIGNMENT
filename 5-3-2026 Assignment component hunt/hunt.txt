@@ -1,0 +1,33 @@
+Assignment Name: Component Hunt
+Website Example: YouTube
+
+A website is built using multiple components. Each component has a specific function and together they form the complete webpage.
+
+1️. Main Components of the Website
+
+A. Header
+
+i. Contains logo, search bar, and user profile.
+
+B. Sidebar / Navigation
+
+i. Contains menu links like Home, Shorts, Subscriptions, Library.
+
+C. Main Content Area
+
+i. Displays videos or posts.
+
+D. Video Card Component
+
+i. Thumbnail image
+
+ii. Video title
+
+iii. Channel name
+
+iv. Views and time
+
+E. Footer
+
+i. Contains links like About, Contact, Privacy Policy.
+
