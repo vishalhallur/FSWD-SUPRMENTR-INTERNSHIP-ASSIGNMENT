@@ -1,0 +1,21 @@
+const jwt = require("jsonwebtoken");
+
+const SECRET = "mysecretkey";
+
+function verifyToken(req, res, next) {
+  const token = req.headers["authorization"];
+
+  if (!token) {
+    return res.json({ message: "No token ❌" });
+  }
+
+  try {
+    const decoded = jwt.verify(token, SECRET);
+    req.user = decoded; 
+    next();
+  } catch (err) {
+    res.json({ message: "Invalid token ❌" });
+  }
+}
+
+module.exports = verifyToken;
